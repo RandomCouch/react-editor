@@ -1,0 +1,44 @@
+/* CSS declarations go here */
+.rEditor.mainEdit {
+    width: 100%;
+    min-height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    padding:10px;
+}
+.rEditorContainer {
+    height: auto;
+    padding: 30px;
+    background-color: darkGrey;
+}
+li.rEditor.tbItem {
+    color: white;
+    padding: 5px;
+    margin-right: 2px;
+    background-color: rgba(255, 255, 255, 0.23);
+    cursor:pointer;
+}
+.rEditor.tbItem.active{
+    color:#A9FBFF;
+    font-weight:bold;
+
+}
+.rEditor.modal {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.rEditor.modal.bg {
+    background-color: rgba(0, 0, 0, 0.54);
+}
+.rEditor.modal.modal_main {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    top: 20%;
+    padding: 10px;
+}
